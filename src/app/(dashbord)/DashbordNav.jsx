@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import React, { useState } from 'react';
 import { RxCross1 } from "react-icons/rx";
 import { CiLogout } from "react-icons/ci";
@@ -8,7 +8,10 @@ import { CiLogout } from "react-icons/ci";
 
 const DashbordNav = () => {
     const router = usePathname()
+    const useRout = useRouter()
     const [toogle , setToggle] = useState(false)
+
+   
     return (
         <div >
             <nav className="bg-white border-gray-200 py-2.5 shadow w-full">
@@ -22,7 +25,7 @@ const DashbordNav = () => {
                     
                     <div className={`items-center justify-between w-full transition-all  duration-150 lg:flex ${toogle == true && 'h-0'} overflow-hidden lg:w-auto lg:order-1`} id="mobile-menu-2">
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                            <Link href="#" className={`roundedBtn flex justify-center items-center gap-x-2`}>LogOut <CiLogout /></Link>
+                            <Link href={'/login'}  replace={true} className={`roundedBtn flex justify-center items-center gap-x-2`}>LogOut <CiLogout /></Link>
                         </ul>
 
                         
