@@ -24,7 +24,7 @@ const Nav = () => {
                             <img src="https://i.ibb.co.com/29CVJ2f/grocery-shop-emblem-for-food-store-or-supermarket-vector.jpg" className="h-10 rounded-2xl mr-3  w-10" alt="" />
                             <span className="self-center text-xl font-semibold whitespace-nowrap ">Grocery Shop</span>
                     </Link>
-                    <RxCross1 onClick={()=>setToggle(toogle)} className='lg:hidden' />
+                    <RxCross1 onClick={()=>setToggle(!toogle)} className='lg:hidden' />
                     
                     <div className={`items-center justify-between w-full transition-all  duration-150  lg:flex hidden  lg:w-auto lg:order-1`} id="mobile-menu-2">
                         <ul className="flex items-center flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
@@ -45,18 +45,18 @@ const Nav = () => {
                         
                     </div>
 
-                    <div className={`items-center justify-between w-full transition-all  duration-150 lg:hidden flex ${toogle == true && 'h-0'} lg:hidden overflow-hidden lg:w-auto lg:order-1`} id="mobile-menu-2">
+                    <div className={`items-center justify-between w-full transition-all  duration-150 lg:hidden flex ${toogle == false && 'h-0'} lg:hidden overflow-hidden lg:w-auto lg:order-1`} id="mobile-menu-2">
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                           
                           
-                            <Link onClick={()=>setToggle(true)} href="/" className={`block py-2 pl-3 pr-4 ${pathName === '/' && 'text-purple-700'} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0   lg:bg-white mb-1 lg:mb-0  dark:hover:bg-gray-700  lg:dark:hover:bg-transparent `}>Home</Link>
+                            <Link onClick={()=>setToggle(false)} href="/" className={`block py-2 pl-3 pr-4 ${pathName === '/' && 'text-purple-700'} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0   lg:bg-white mb-1 lg:mb-0  dark:hover:bg-gray-700  lg:dark:hover:bg-transparent `}>Home</Link>
 
-                            <Link onClick={()=>setToggle(true)} href="/products" className={`block py-2 pl-3 pr-4 ${pathName === '/products' && 'text-purple-700'} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0  lg:bg-white mb-1 lg:mb-0  dark:hover:bg-gray-700  lg:dark:hover:bg-transparent `}>Products</Link>
-                           <Link onClick={()=>setToggle(true)} href="/about" className={`block py-2 pl-3 pr-4 ${pathName === '/about' && 'text-purple-700'} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0   lg:bg-white mb-1 lg:mb-0  dark:hover:bg-gray-700  lg:dark:hover:bg-transparent `}>About</Link>
+                            <Link onClick={()=>setToggle(false)} href="/products" className={`block py-2 pl-3 pr-4 ${pathName === '/products' && 'text-purple-700'} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0  lg:bg-white mb-1 lg:mb-0  dark:hover:bg-gray-700  lg:dark:hover:bg-transparent `}>Products</Link>
+                           <Link onClick={()=>setToggle(false)} href="/about" className={`block py-2 pl-3 pr-4 ${pathName === '/about' && 'text-purple-700'} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0   lg:bg-white mb-1 lg:mb-0  dark:hover:bg-gray-700  lg:dark:hover:bg-transparent `}>About</Link>
 
 
-                            <Link onClick={()=>setToggle(true)} href="/contuct" className={`block py-2 pl-3 pr-4 ${pathName === '/contuct' && 'text-purple-700'} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0  lg:bg-white mb-1 lg:mb-0  dark:hover:bg-gray-700  lg:dark:hover:bg-transparent `}>Contucts</Link>
-                            <Link onClick={()=>setToggle(true)}  href={'/login'}  className='border px-5 rounded bg-green-900 text-white' replace>Login</Link>
+                            <Link onClick={()=>setToggle(false)} href="/contuct" className={`block py-2 pl-3 pr-4 ${pathName === '/contuct' && 'text-purple-700'} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0  lg:bg-white mb-1 lg:mb-0  dark:hover:bg-gray-700  lg:dark:hover:bg-transparent `}>Contucts</Link>
+                            <Link onClick={()=>setToggle(false)}  href={'/login'}  className='border px-5 rounded bg-green-900 text-white' replace>Login</Link>
                         </ul>
 
                         

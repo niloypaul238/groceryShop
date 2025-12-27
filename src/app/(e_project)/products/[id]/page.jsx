@@ -36,7 +36,7 @@ const ProductId = ({ params }) => {
 
         <div className='flex justify-between'>
             <div></div>
-            <Link href={'/'} className='text-green-800 hover:text-green-400 bg-green-800/10 px-3 py-1'>Back to Home</Link>
+            <Link href={'/'} className='text-green-800 mt-4 md:mt-0 hover:text-green-400 bg-green-800/10 px-3 py-1'>Back to Home</Link>
         </div>
         
 
