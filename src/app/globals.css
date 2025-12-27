@@ -1,0 +1,29 @@
+
+@import "tailwindcss";
+body {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+} 
+
+*{
+    font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+.roundedBtn{
+  border: 1px solid green;
+  padding: 3px 20px ;
+  color: green;
+  border-radius: 5px;
+}
+.roundedBtn:hover{
+  background-color: green;
+  color: white;
+}

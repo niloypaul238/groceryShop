@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Fresh Apples",
+    "price": 220,
+    "category": "Fruits",
+    "image": "https://i.ibb.co.com/1YDngZMD/images-q-tbn-ANd9-Gc-Sr4-Fo2r-TO4-Aov-Ap8-Qpz4bg9p-Uk-HTm-Ek-NXIQ-s.jpg",
+    "subImages": ["apple1.jpg","apple2.jpg"],
+    "description": "Crisp and fresh red apples sourced from organic farms."
+  },
+  {
+    "id": 2,
+    "title": "Bananas",
+    "price": 120,
+    "category": "Fruits",
+    "image": "https://i.ibb.co.com/QFVXYWPC/66ebeb69d3c31.jpg",
+    "subImages": ["banana1.jpg","banana2.jpg"],
+    "description": "Fresh bananas rich with potassium and fiber."
+  },
+  {
+    "id": 3,
+    "title": "Brown Eggs (12pcs)",
+    "price": 180,
+    "category": "Dairy",
+    "image": "https://i.ibb.co.com/354MFdDt/66ebeb69d3c31.jpg",
+    "subImages": ["eggs1.jpg","eggs2.jpg"],
+    "description": "Farm fresh brown eggs, 12 pieces per pack."
+  },
+  {
+    "id": 4,
+    "title": "Milk 1L",
+    "price": 95,
+    "category": "Dairy",
+    "image": "https://i.ibb.co.com/v4phH5mv/66ebeb69d3c31.jpg",
+    "subImages": ["milk1.jpg","milk2.jpg"],
+    "description": "Pure and healthy fresh cow milk in 1L pack."
+  },
+  {
+    "id": 5,
+    "title": "Basmati Rice 5kg",
+    "price": 620,
+    "category": "Rice & Grains",
+    "image": "https://i.ibb.co.com/9HtZjVSF/66ebeb69d3c31.jpg",
+    "subImages": ["rice1.jpg","rice2.jpg"],
+    "description": "Premium long grain aromatic basmati rice."
+  },
+  {
+    "id": 6,
+    "title": "Flour Atta 5kg",
+    "price": 350,
+    "category": "Rice & Grains",
+    "image": "https://i.ibb.co.com/xqyg44Y8/66ebeb69d3c31.jpg",
+    "subImages": ["atta1.jpg","atta2.jpg"],
+    "description": "Stone-milled wheat flour suitable for chapati."
+  },
+  {
+    "id": 7,
+    "title": "Chicken Breast 1kg",
+    "price": 420,
+    "category": "Meat",
+    "image": "https://i.ibb.co.com/bMQkH5x5/66ebeb69d3c31.jpg",
+    "subImages": ["chicken1.jpg","chicken2.jpg"],
+    "description": "Boneless premium chicken breast 1kg pack."
+  },
+  {
+    "id": 8,
+    "title": "Beef 1kg",
+    "price": 760,
+    "category": "Meat",
+    "image": "https://i.ibb.co.com/cS1nNvmD/66ebeb69d3c31.jpg",
+    "subImages": ["beef1.jpg","beef2.jpg"],
+    "description": "Fresh beef cut and cleaned ready for cooking."
+  },
+  {
+    "id": 9,
+    "title": "Broccoli 1kg",
+    "price": 160,
+    "category": "Vegetable",
+    "image": "https://i.ibb.co.com/0ygdxwJz/66ebeb69d3c31.jpg",
+    "subImages": ["broccoli1.jpg","broccoli2.jpg"],
+    "description": "Fresh green broccoli rich in vitamins."
+  },
+  {
+    "id": 10,
+    "title": "Red Onion 1kg",
+    "price": 140,
+    "category": "Vegetable",
+    "image": "https://i.ibb.co.com/7d0c6Dks/66ebeb69d3c31.jpg",
+    "subImages": ["onion1.jpg","onion2.jpg"],
+    "description": "Fresh red onion essential for daily cooking."
+  }
+]

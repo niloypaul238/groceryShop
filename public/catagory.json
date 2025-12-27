@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Vegetable", "slug": "vegetables" },
+  { "id": 2, "name": "Rice & Grains", "slug": "rice-grains" },
+  { "id": 3, "name": "Dairy", "slug": "dairy-products" },
+  { "id": 4, "name": "Meat", "slug": "meat-fish" },
+  { "id": 5, "name": "Snacks", "slug": "snacks" },
+  { "id": 6, "name": "Beverages", "slug": "beverages" }
+]
