@@ -2,6 +2,9 @@ import React from 'react';
 import { CiLocationOn, CiTimer } from 'react-icons/ci';
 import { IoCallOutline } from "react-icons/io5";
 
+export const metadata = {
+    title:"Contuct"
+}
 
 const Contuct = () => {
     return (

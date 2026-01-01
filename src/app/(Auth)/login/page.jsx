@@ -5,12 +5,13 @@ import React, { useState } from 'react';
 import { FcGoogle } from "react-icons/fc";
 
 
+
 const Login = () => {
 
     const router = useRouter()
     let [obj, setObj] = useState({
-        email: '',
-        password: ''
+        email: 'antu0408@gmail.com',
+        password: '1234'
     });
     const changeHandle = (e) => {
         let copyObj = { ...obj }

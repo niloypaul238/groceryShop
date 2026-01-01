@@ -2,6 +2,7 @@
 import React from 'react';
 import { BiBarChart, BiCoinStack, BiDownload, BiFilter, BiPlus } from 'react-icons/bi';
 import { FaUserSecret } from 'react-icons/fa';
+import Chartss from './Chartss';
 
 const Dashbord = () => {
     return (
@@ -67,6 +68,10 @@ const Dashbord = () => {
                     <button className="flex items-center hover:bg-[#f35c4e] cursor-pointer gap-2 bg-[#ff6f61] text-white px-4 py-2 rounded-lg shadow">
                     <BiPlus size={18} /> Add Agancy
                     </button>
+                </div>
+
+                <div>
+                    <Chartss/>
                 </div>
             </div>
 

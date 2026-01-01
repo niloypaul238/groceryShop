@@ -7,6 +7,8 @@ import Link from "next/link";
 import Footer from "./Footer";
 import { useRouter } from "next/navigation";
 
+
+
 export default function Home() {
   // let [products,setProducts] = useState([])
   // useEffect(()=>{

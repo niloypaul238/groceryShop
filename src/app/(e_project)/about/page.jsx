@@ -1,5 +1,8 @@
 import React from 'react';
 
+export const metadata ={
+    title:'About'
+}
 const About = () => {
     return (
         <div className='w-[50%] mx-auto'>

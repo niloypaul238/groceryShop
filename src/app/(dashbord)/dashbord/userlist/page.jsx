@@ -14,7 +14,7 @@ const  UserList = () => {
     return (
         <div>
             <div className="bg-[#c9d8e8] border-1 border-white p-3 rounded-xl shadow overflow-auto">
-                <table className="w-full table text-left">
+                <table className="w-full  table text-left">
                     <thead className=''>
                         <tr className="text-gray-500 border-b border-white text-sm">
                             <th className="py-2">User ID</th>

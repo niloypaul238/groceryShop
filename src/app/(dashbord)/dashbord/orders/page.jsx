@@ -142,8 +142,8 @@ const Orders = ({ searchParams }) => {
                 <Link href={'/dashbord/orders?status=pending'} className='bg-yellow-900 cursor-pointer text-white px-4 py-1'>Pending</Link>
                 <Link href={'/dashbord/orders?status=upcomming'} className='bg-yellow-500 cursor-pointer text-white px-4 py-1'>Upcomming</Link>
             </div>
-            <table className='table-fixed w-full'>
-                <thead>
+            <table className='table-fixed w-full text-sm text-left rtl:text-right text-body'>
+                <thead className='text-sm text-body bg-gray-400/70 border-b rounded-base border-default"'>
                     <tr className='text-left text-lg'>
                         <th>Order ID</th>
                         <th>Customar Name</th>
